@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de texto</title>
+    <link rel="shortcut icon" href="img/Logo.png">
+    <link rel="stylesheet" href="layout.css"> 
+</head>
+
+<header>
+    <div> 
+        <img class="gif" src="img/kuromi-cute.gif">
+    </div>
+</header>
+
+<body>
+    <main>
+        <section>
+            <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+
+            <div class="_container">
+                <section class="areadtexto">
+                    <textarea id="entrada" placeholder="Digite seu texto" oninput="formatarTexto()"></textarea>
+                </section>
+
+                <section class="_ctrBot">
+                    <div class="aviso">
+                        <img src="img/alerta!.png" alt="Ponto de exclamação">
+                        <span>Apenas letras minúsculas e sem acento.</span>
+                    </div>
+                    <div class="_botões">
+                        <button id="bttCriptografar" class="btt_crip" onclick="cripy()" >Criptografar</button>
+                        <button id="bttDescriptografar" class="btt_descrip" onclick="descripy()" >Descriptografar</button>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+
+        <div class="caixa_">
+            <div id="texto2" class="mensagem_">
+                <img src="img/krmpc.png">
+                <h2>Nenhuma mensagem encontrada</h2>
+            </div>
+
+            <section id="copiar" class="display2">
+                <div class="textOutput">
+                    <textarea readonly id="saida"></textarea>
+                </div>
+
+                <div class="botão_copy">
+                    <button id="copiar" class="btt_copy" onclick="copy()" >Copiar</button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="rodape">2024 © Desenvolvido por Leticia Lima</footer>
+    <script src="app.js"></script>
+</body>
+
+</html>

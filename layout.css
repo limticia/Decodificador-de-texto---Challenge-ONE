@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+body{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    background-image: url(img/kuromiii.gif);
+    background-size: 20%;
+    margin: auto;
+}
+
+body::-webkit-scrollbar {
+    width: 15px;
+}
+  
+  body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #050505;
+    border-radius: 10px;
+}
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #8260a2;
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    -webkit-box-shadow: inset 0 0 15px #f32df3;  /* creates padding around scroll thumb */
+  }
+
+.gif {
+    width: 120px;
+    margin: 30px 0 0 30px;
+
+}
+
+p{
+    color: #ffffff;
+    text-align: center;
+    text-shadow: #000000 5px 5px 2px;
+    font-family: Pixelify Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    margin-top: 3%;
+    margin-left: 7%;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    gap: 44px;
+}
+
+._container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+    gap: 4px;
+
+}
+
+textarea{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    resize: none;
+}
+
+textarea::placeholder{
+    color: black;
+}
+
+textarea::-webkit-scrollbar {
+    width: 15px;
+}
+  
+textarea::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #050505;
+    border-radius: 10px;
+}
+  
+textarea::-webkit-scrollbar-thumb {
+    background-color: #8260a2;
+    border-radius: 20px;
+    -webkit-box-shadow: inset 0 0 10px #f32df3;
+  }
+
+.areadtexto textarea{
+    color: black;
+    background-color: rgba(92, 25, 86, 0.685);
+    border-radius: 15px;
+    font-family: Pixelify Sans;
+    font-size: 24px;
+    font-style: normal;
+    text-align: left;
+    font-weight: 500;
+    line-height: 150%;
+    height: 340px; 
+    width: 670px;
+    margin-left: 3%;
+    padding: 2%;
+
+}
+
+._ctrBot{
+    padding-top: 2%;
+    margin-left: 3%;
+}
+
+.aviso{
+    color: #000000;
+    font-family: Pixelify Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.aviso img{
+    height: 15px;
+}
+
+button{
+    align-items: flex-start;
+    background-color: transparent;
+    border-radius: 24px;
+    font-family: 'Pixelify Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    border: 2px dashed #b19cd9; 
+    outline: none;
+    width: 325px;
+    height: 70px;
+}
+
+
+._botões{
+    display: flex;
+    gap: 30px;
+}
+
+.btt_crip{
+    background-color: #5c19a0;
+    color: white;
+}
+
+.btt_crip:hover{
+    background-color: #7e27d4;
+    color: white;
+}
+
+.btt_descrip{    
+    background-color: #9a28ec;
+    color: black;
+}
+
+.btt_descrip:hover{
+    background-color: #7d20c0;
+    color: black;
+}
+
+.caixa_{
+    background-color: rgba(48, 3, 99, 0.87);
+    margin-left: 2%;  
+    border-radius: 15px;
+    padding: 2% 5% 0% 2%;
+    height: 520px;
+    width: 300px;
+    margin-top: 5%;
+}
+
+.mensagem_ img{
+    height: 200px;
+    margin-top: 35%;
+    margin-left: 8%;
+}
+
+.mensagem_ h2{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-family: Pixelify Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 120%;
+    margin-left: 10%;
+}
+
+.btt_copy{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 4% 0% 0% 3%;
+    text-align: center ;
+}
+
+
+.btt_copy:hover{
+    background-color: #111111;
+}
+
+.botão_copy{
+    margin: 20% 0% 0% 0%;
+}
+
+.texto-crip p{
+    overflow: auto;
+}
+
+.display2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: none;
+}
+
+.textOutput textarea{
+    color: rgba(255, 255, 255, 0.856);
+    font-family: Pixelify Sans;
+    text-align: left;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 10%;
+    height: 320px;
+    width: 340px;
+    padding-right: 5%;
+}
+
+.rodape{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    background-color: rgba(19, 15, 22, 0.452);
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 50%;
+    padding: 1% 0;
+}
+
+@media (max-width:768px){   
+
+body{
+    flex-direction: column;
+
+}
+
+.gif{
+    width: 140px;
+    margin: 75px 0 0 40px;
+}
+
+p{
+    margin-top: -90px;
+    margin-left: 25%;
+    width: 70%
+}
+
+main{
+    flex-direction: column;
+    padding: 0 40px;
+}
+
+._container{
+    margin-top: 5%;
+}
+
+.areadtexto textarea{
+    height: 288px;
+    width: 600px;
+    max-width: none;
+    margin-top: 10%;
+    padding: 3% 5%;
+    margin-left: 1%;
+}
+
+._ctrBot{
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.caixa_{
+    height: 360px;
+    width: 620px;
+    margin: 5% 3%;
+}
+
+.mensagem_ img{
+    margin-top: 7%;
+    margin-left: 0;
+}
+
+.mensagem_ h2{
+    margin-top: -120px;
+    margin-left: 55%;
+    font-size: 25px;
+}
+
+.botão_copy{
+    margin-top: 2%;
+    margin-left: 25%;
+    width: 100%;
+}
+
+.textOutput textarea{
+    margin-top: 2%;
+    flex-direction: column;
+    width: 100%;
+    padding: 3% 1% 0% 5%;
+    height: 210px;
+}
+
+.rodape{
+    margin-top: 200%;
+    width: 100%;
+    position: absolute;
+}
+}
+
+@media (max-width:500px) {
+
+p{
+    margin-top: -160px;
+    width: auto;
+    margin-left: 30%;
+}
+
+.gif{
+    width: 100px;
+    margin: 24px 0 80px 16px;
+}
+
+main{
+    margin-left: -15px;
+    width: auto;
+}
+
+._botões{
+    flex-direction: column;
+    width: auto;
+}
+
+.areadtexto textarea{
+    width: 310px;
+}
+
+button{
+    width: 343px;
+    height: 67px;
+}
+
+.caixa_{
+    width: 317px;
+
+}
+
+.mensagem_{
+    display: flexbox;
+}
+
+.mensagem_ img{
+    width: auto;
+}
+
+.mensagem_ h2{
+    margin-top: 5%;
+    margin-left: -1px;
+}
+
+.btt_copy{
+    width: 300px;
+}
+
+.botão_copy{
+    width: auto;
+    margin-top: 10%;
+    margin-left: auto;
+}
+
+.textOutput textarea{
+    width: 315px;
+}
+
+.rodape{
+    position: absolute;
+    margin-top: 400%;
+}
+}
