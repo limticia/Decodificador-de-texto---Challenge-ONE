@@ -6,7 +6,8 @@ Esse foi o resultado da realização do primeiro challenge 'Iniciante em Program
     
   - Foi colocado em prática os conceitos básicos estudados nos cursos de HTML, CSS e JavaScript oferecidos pela plataforma.
    
-  ![tela site](https://github.com/lethw/Decodificador-de-texto---Challenge-ONE/assets/157408142/909ee783-458f-458a-a3e4-8e907327d4af)
+     ![tela site](https://github.com/lethw/Decodificador-de-texto---Challenge-ONE/assets/157408142/4529a031-a039-4bc6-bf8f-a5ed6767d5cf)
+
 
 
 ## 🖥 Sobre o desafio
